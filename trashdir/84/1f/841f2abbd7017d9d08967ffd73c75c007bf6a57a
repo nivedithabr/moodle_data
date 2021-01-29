@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <title>Animal Sounds</title>
+      <link rel="stylesheet" href="styles.css">
+      <link href="https://fonts.googleapis.com/css?family=Kranky" rel="stylesheet">
+
+    </head>
+<body>
+
+    <h1>Farm Animals</h1>
+
+    <div id="keys">
+        <div id="1" class="key">
+            <img id="1" src="images/cow.png" alt="Cow" height="180" width="180">
+            <span class="sound">Cow</span>
+            <audio id="audio_1" src="sounds/moo.mp3"></audio>
+        </div>
+        <div id="2" class="key">
+            <img id="2" src="images/sheep.png" alt="Sheep" height="180" width="180">
+            <span class="sound">Sheep</span>
+            <audio id="audio_2" src="sounds/baa.mp3"></audio>
+        </div>
+        <div id="3" class="key">
+            <img id="3" src="images/pig.png" alt="Pig" height="180" width="180">
+            <span class="sound">Pig</span>
+            <audio id="audio_3" src="sounds/grunt.mp3"/>
+        </div>
+        <div id="4" class="key">
+            <img id="4" src="images/rooster.png" alt="Rooster" height="180" width="180">
+            <span class="sound">Rooster</span>
+            <audio id="audio_4" src="sounds/doo.mp3"/>
+        </div>
+        <div id="5" class="key">
+            <img id="5" src="images/dog.png" alt="Dog" height="180" width="180">
+            <span class="sound">Dog</span>
+            <audio id="audio_5" src="sounds/bark.mp3"/>
+        </div>
+        <div id="6" class="key">
+            <img id="6" src="images/cat.png" alt="Cat" height="180" width="180">
+            <span class="sound">Cat</span>
+            <audio id="audio_6" src="sounds/meow.mp3"/>
+        </div>
+
+    </div>
+
+     <script src="script.js"></script>
+</body>
+
+
+</html>
